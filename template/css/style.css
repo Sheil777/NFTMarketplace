@@ -244,8 +244,8 @@ body {
   gap: 10px;
   padding-bottom: 30px;
 }
-.footer__container .nftinfo__link .link_addr svg {
-  transition: all 0.5s;
+.footer__container .nftinfo__link .link_addr svg path {
+  transition: all 0.3s;
 }
 .footer__container .nftinfo__link .link_addr svg:hover path {
   fill: #A259FF;
