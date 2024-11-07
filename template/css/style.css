@@ -244,9 +244,15 @@ body {
   gap: 10px;
   padding-bottom: 30px;
 }
-.footer__container .nftinfo__link .link_addr img {
-  width: 32px;
-  height: 32px;
+.footer__container .nftinfo__link .link_addr svg {
+  transition: all 0.5s;
+}
+.footer__container .nftinfo__link .link_addr svg:hover path {
+  fill: #A259FF;
+}
+.footer__container .nftinfo__link .link_addr .twit:hover path {
+  stroke: #A259FF;
+  fill: none;
 }
 .footer__container .nftexplore a {
   width: 133px;
@@ -283,4 +289,9 @@ body {
   color: white;
   font-weight: 600;
   letter-spacing: 1px;
+  transition: background-color 0.5s;
+  cursor: pointer;
+}
+.footer__container .nftjoin button:hover {
+  background-color: #8c34ff;
 }/*# sourceMappingURL=style.css.map */
