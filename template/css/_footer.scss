@@ -1,0 +1,110 @@
+.footer{
+    font-family: 'Work Sans';
+    background-color: #3B3B3B;
+    padding-top: 40px;
+    &__container{
+        .psh{
+            color: #CCCCCC;
+            border-top: 1px solid #858584;
+            padding-top: 20px;
+            padding-bottom: 40px;
+        }
+
+        .main_footer{
+            display: flex;
+        justify-content: space-around;
+        padding: 0 40px;
+        }
+        .default_set{
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            font-weight:400;
+            font-size: 16px;
+            width: 238px;
+            line-height: normal;
+            color: #CCCCCC;
+            a{
+                color: #CCCCCC;
+            }
+            h1{
+                font-family: 'Space Mono';
+                font-weight: 700;
+                font-size: 22px;
+                color: white;
+                padding-bottom: 10px;
+            }
+        }
+        .nftinfo{
+
+            .logo_nft{
+                display: flex;
+                align-items: center;
+                gap: 17px;
+            }
+            &__info{
+                display: flex;
+                padding-top: 10px;
+
+            }
+
+            &__link{
+                display: flex;
+                flex-direction: column;
+                gap: 15px;
+
+                .link_addr{
+                    display: flex;
+                    gap: 10px;
+                    padding-bottom: 30px;
+
+                    img{
+                        width: 32px;
+                        height: 32px;
+                    }
+                }
+            }
+        }
+        .nftexplore{
+            a{
+                width: 133px;
+            }
+            
+        }
+        .nftjoin{
+            width: 420px;
+            h1{
+            text-wrap: nowrap;
+            }
+            p{
+                width: 330px;
+            }
+            div{position: relative;}
+            input{
+                
+                width: 420px;
+                height: 60px;
+                padding: 20px;
+                box-sizing: border-box;
+                border-radius: 20px;
+                color: #2B2B2B;
+                letter-spacing: 1px;
+
+            }
+            button{
+                position: absolute;
+                top: 0;
+                left: 241px;
+                width: 179px;
+                height: 60px;
+                border-radius: 20px;
+                background-color: #A259FF;
+                color: white;
+                font-weight: 600;
+                letter-spacing: 1px;
+
+
+            }
+        }
+    }
+}
