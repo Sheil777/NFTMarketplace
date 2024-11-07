@@ -159,9 +159,28 @@ body {
 .promo__right {
   flex: 0 0 510px;
 }
+.promo__blockImg {
+  background-color: #3B3B3B;
+  border-radius: 20px;
+}
 .promo__nft img {
   width: 100%;
 }
 .promo__user {
   padding: 20px;
+}
+.promo__nft-header {
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.promo__nft-author {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 16px;
+  font-weight: 400;
+}
+.promo__nft-author img {
+  height: 24px;
 }/*# sourceMappingURL=style.css.map */

@@ -128,6 +128,8 @@
   }
 
   &__blockImg {
+    background-color: $Secondary;
+    border-radius: 20px;
   }
 
   &__nft {
@@ -141,8 +143,24 @@
   }
 
   &__nft-header {
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 10px;
   }
 
   &__nft-author {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-size: 16px;
+    font-weight: 400;
+
+    img {
+      height: 24px;
+    }
+
+    span {
+
+    }
   }
 }
