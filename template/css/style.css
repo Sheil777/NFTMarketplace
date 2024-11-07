@@ -63,101 +63,6 @@ body {
 }
  */
 /* ----------------------------------- */
-.footer {
-  font-family: "Work Sans";
-  background-color: #3B3B3B;
-  padding-top: 40px;
-}
-.footer__container .psh {
-  color: #CCCCCC;
-  border-top: 1px solid #858584;
-  padding-top: 20px;
-  padding-bottom: 40px;
-}
-.footer__container .main_footer {
-  display: flex;
-  justify-content: space-around;
-  padding: 0 40px;
-}
-.footer__container .default_set {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-  font-weight: 400;
-  font-size: 16px;
-  width: 238px;
-  line-height: normal;
-  color: #CCCCCC;
-}
-.footer__container .default_set a {
-  color: #CCCCCC;
-}
-.footer__container .default_set h1 {
-  font-family: "Space Mono";
-  font-weight: 700;
-  font-size: 22px;
-  color: white;
-  padding-bottom: 10px;
-}
-.footer__container .nftinfo .logo_nft {
-  display: flex;
-  align-items: center;
-  gap: 17px;
-}
-.footer__container .nftinfo__info {
-  display: flex;
-  padding-top: 10px;
-}
-.footer__container .nftinfo__link {
-  display: flex;
-  flex-direction: column;
-  gap: 15px;
-}
-.footer__container .nftinfo__link .link_addr {
-  display: flex;
-  gap: 10px;
-  padding-bottom: 30px;
-}
-.footer__container .nftinfo__link .link_addr img {
-  width: 32px;
-  height: 32px;
-}
-.footer__container .nftexplore a {
-  width: 133px;
-}
-.footer__container .nftjoin {
-  width: 420px;
-}
-.footer__container .nftjoin h1 {
-  text-wrap: nowrap;
-}
-.footer__container .nftjoin p {
-  width: 330px;
-}
-.footer__container .nftjoin div {
-  position: relative;
-}
-.footer__container .nftjoin input {
-  width: 420px;
-  height: 60px;
-  padding: 20px;
-  box-sizing: border-box;
-  border-radius: 20px;
-  color: #2B2B2B;
-  letter-spacing: 1px;
-}
-.footer__container .nftjoin button {
-  position: absolute;
-  top: 0;
-  left: 241px;
-  width: 179px;
-  height: 60px;
-  border-radius: 20px;
-  background-color: #A259FF;
-  color: white;
-  font-weight: 600;
-  letter-spacing: 1px;
-}
 .header__container {
   display: flex;
   justify-content: space-between;
@@ -282,4 +187,110 @@ body {
 }
 .promo__nft-author img {
   height: 24px;
+}
+.footer {
+  font-family: "Work Sans";
+  background-color: #3B3B3B;
+  padding-top: 40px;
+}
+.footer__container .psh {
+  color: #CCCCCC;
+  border-top: 1px solid #858584;
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+.footer__container .main_footer {
+  display: flex;
+  justify-content: space-around;
+  padding: 0 40px;
+}
+.footer__container .default_set {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  font-weight: 400;
+  font-size: 16px;
+  width: 238px;
+  line-height: normal;
+  color: #CCCCCC;
+}
+.footer__container .default_set a {
+  color: #CCCCCC;
+}
+.footer__container .default_set h1 {
+  font-family: "Space Mono";
+  font-weight: 700;
+  font-size: 22px;
+  color: white;
+  padding-bottom: 10px;
+}
+.footer__container .nftinfo .logo_nft {
+  display: flex;
+  align-items: center;
+  gap: 17px;
+}
+.footer__container .nftinfo__info {
+  display: flex;
+  padding-top: 10px;
+}
+.footer__container .nftinfo__link {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.footer__container .nftinfo__link .link_addr {
+  display: flex;
+  gap: 10px;
+  padding-bottom: 30px;
+}
+.footer__container .nftinfo__link .link_addr svg {
+  transition: all 0.5s;
+}
+.footer__container .nftinfo__link .link_addr svg:hover path {
+  fill: #A259FF;
+}
+.footer__container .nftinfo__link .link_addr .twit:hover path {
+  stroke: #A259FF;
+  fill: none;
+}
+.footer__container .nftexplore a {
+  width: 133px;
+}
+.footer__container .nftjoin {
+  width: 420px;
+}
+.footer__container .nftjoin h1 {
+  text-wrap: nowrap;
+}
+.footer__container .nftjoin p {
+  width: 330px;
+}
+.footer__container .nftjoin div {
+  position: relative;
+}
+.footer__container .nftjoin input {
+  width: 420px;
+  height: 60px;
+  padding: 20px;
+  box-sizing: border-box;
+  border-radius: 20px;
+  color: #2B2B2B;
+  letter-spacing: 1px;
+}
+.footer__container .nftjoin button {
+  position: absolute;
+  top: 0;
+  left: 241px;
+  width: 179px;
+  height: 60px;
+  border-radius: 20px;
+  background-color: #A259FF;
+  color: white;
+  font-weight: 600;
+  letter-spacing: 1px;
+  transition: background-color 0.5s;
+  cursor: pointer;
+}
+.footer__container .nftjoin button:hover {
+  background-color: #8c34ff;
 }/*# sourceMappingURL=style.css.map */

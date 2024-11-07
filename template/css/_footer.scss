@@ -57,10 +57,21 @@
                     display: flex;
                     gap: 10px;
                     padding-bottom: 30px;
+                    
+                    svg{
+                        transition: all 0.5s;
+                    }
 
-                    img{
-                        width: 32px;
-                        height: 32px;
+                    svg:hover{
+                        path {
+                            fill: $CallToAction;
+                        }
+                    }
+                    .twit:hover{
+                        path {
+                            stroke: $CallToAction;
+                            fill: none;
+                        }
                     }
                 }
             }
@@ -102,9 +113,17 @@
                 color: white;
                 font-weight: 600;
                 letter-spacing: 1px;
-
+                transition: background-color 0.5s;
+                cursor: pointer;
+                
+                
 
             }
+            button:hover {
+                    background-color: #8c34ff;
+
+                  }
+
         }
     }
 }
