@@ -1,0 +1,172 @@
+.header {
+
+  &__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    max-width: 1180px;
+  }
+
+  &__logo {
+  }
+
+  &__menu {
+  }
+}
+
+.menu {
+  font-family: 'Work Sans';
+  display: flex;
+  align-items: center;
+  gap: 28px;
+
+  &__list {
+    list-style-type: none;
+    display: flex;
+    gap: 45px;
+  }
+
+  &__item {
+  }
+
+  &__link {
+    color: #fff;
+    font-weight: 500;
+    transition: all 0.3s;
+
+    &:hover {
+      color: $CallToAction;
+    }
+  }
+
+  &__button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+
+    color: #fff;
+    font-weight: 500;
+
+    width: 152px;
+    height: 60px;
+    border-radius: 20px;
+    background-color: $CallToAction;
+
+    transition: background-color 0.5s;
+
+    &:hover {
+      background-color: #8c34ff;
+    }
+  }
+}
+
+.promo {
+
+  &__container {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 80px;
+  }
+
+  &__left {
+    flex: 0 0 510px;
+  }
+
+  &__header {
+    font-size: 67px;
+    font-weight: 600;
+    line-height: 110%;
+    margin-bottom: 20px;
+  }
+
+  &__text {
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 160%;
+    margin-bottom: 30px;
+  }
+
+  &__button {
+    width: 224px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    background-color: $CallToAction;
+    border-radius: 20px;
+    color: #fff;
+
+    transition: background-color 0.5s;
+
+    &:hover {
+      background-color: #8c34ff;
+    }
+  }
+
+  &__achievement {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+
+    dl {
+      width: 150px;
+
+      dt {
+        font-family: 'Space Mono';
+        font-size: 28px;
+        font-weight: 700;
+        margin-bottom: 10px;
+      }
+
+      dd {
+        font-size: 24px;
+        font-weight: 400;
+      }
+    }
+  }
+
+  &__right {
+    flex: 0 0 510px;
+  }
+
+  &__blockImg {
+    background-color: $Secondary;
+    border-radius: 20px;
+  }
+
+  &__nft {
+    img {
+      width: 100%;
+    }
+  }
+
+  &__user {
+    padding: 20px;
+  }
+
+  &__nft-header {
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+
+  &__nft-author {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-size: 16px;
+    font-weight: 400;
+
+    img {
+      height: 24px;
+    }
+
+    span {
+
+    }
+  }
+}
